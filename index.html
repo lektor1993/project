@@ -9,21 +9,23 @@
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Raleway|Roboto" rel="stylesheet">
     <title>Lorem</title>
 </head>
+
 <body>
     <div class="container">
-        <nav class="row">
-            <div class= "column-small">
-                <img class="logo-brand" src="img/logo.png" alt="LogoLorem">
-            </div>
-            <div class="navigation-items column-main">
-                <div class="nav-item"><a href="index.html">Strona główna</a></div>
-            </div>
-            <div class="align-right column-small">
-                <button class="btn-buy" type="button">KUP BILET</button>
-            </div>
-        </nav>
+            <nav class="navbar navbar-expand-sm">
+                    <img class="navbar-brand" src="img/logo.jpg" class="image d-inline-block align-top" alt="Logo">
+                    <button class="align-right btn-buy" type="button">KUP BILET</button>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
 
-        <div class="jumbotron">
+                      <div class="navbar-nav">
+                            <div class="nav-item"><a href="index.html">STRONA GŁÓWNA</a></div>
+                    </div>
+                  </nav>
+
+
+        <header class="jumbotron">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -52,12 +54,11 @@
                 <h2><span class="font-warning">PGE NARODOWY</span> | WARSZAWA</h2>
             </div>
 
-            <iframe class="video" width="240" height="240" src="https://www.youtube.com/embed/hY7m5jjJ9mM"  allow="autoplay; encrypted-media"
-                allowfullscreen></iframe>
-        </div>
+            <iframe class="video" src="https://www.youtube.com/embed/hY7m5jjJ9mM" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </header>
 
         <div class="content column-main">
-            <div class="row">
+            <div class="row-main row">
                 <div class="col-side">
                     <div class="intro">EMEBIT TO:</div>
                 </div>
@@ -76,14 +77,14 @@
             </div>
 
             <div class="row">
-                    <button class="col-12 btn-buy" type="button">SPRAWDŹ BILETY</button>
+                <button class="btn-buy col-12 " type="button">SPRAWDŹ BILETY</button>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
                 <img class="image" alt="Nowak" src="img/nowak.jpg">
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
+            <div class="text col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 ">
                 <div class="intro">GRZEGORZ NOWAK <br>
                     <span class="font-lower">
                         doradca, inwestor i mówca
@@ -92,18 +93,14 @@
                 <p class="col-text">
                     Polski przedsiębiorca, właściciel przedsiębiorstwa Gratto Holding, z siedzibą w Warszawie i międzynarodowej grupy inwestycyjnej
                     gratto Investments, z siedzibą w Austri oraz biurami w Paryżu i Dubaju, od 2015 regularnie klasyfikowany
-                    był w rakingach jako najbogatszy Polak.
+                    był w rakingach jako najbogatszy Polak.<br><br> Pierwszy kapitał na rozpoczęcie interesów
+                    Grzegorz Nowak otrzymał od ojca. Za te pieniądze założył w 1989 polinijną firmę handlową - Polonis, jedno
+                    z pierwszych przedsiębiorstw zagranicznych powstałych w Polsce po II wojnie światowej.
                 </p>
-                <br>
-                <P class="col-text">
-                    Pierwszy kapitał na rozpoczęcie interesów Grzegorz Nowak otrzymał od ojca. Za te pieniądze założył w 1989 polinijną firmę
-                    handlową - Polonis, jedno z pierwszych przedsiębiorstw zagranicznych powstałych w Polsce po II wojnie
-                    światowej.
-                </P>
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 order-2 order-sm-2 order-md-2 order-lg-2 order-xl-1">
+            <div class="text col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 order-2 order-sm-2 order-md-2 order-lg-2 order-xl-1">
                 <div class="intro">PGE Narodowy <br>
                     <span class="font-lower">
                         w Warszawie
@@ -123,4 +120,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
 </body>
+
 </html>
