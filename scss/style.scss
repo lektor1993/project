@@ -23,7 +23,6 @@ $color-blue: rgba(13, 39, 99, 1);
   src: url(../fonts/Montserrat-Light.ttf);
 }
 
-
 body {
   font-size: 16px;
 }
@@ -42,6 +41,13 @@ body {
 .logo-brand {
   width: auto;
   height: 100px;
+}
+
+.align-right {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  right: 0;
 }
 
 .nav-item a {
@@ -172,13 +178,6 @@ p {
   font-family: "Montserrat-Bold";
 }
 
-.align-right {
-  position: absolute;
-  display: flex;
-  align-items: flex-end;
-  right: 0;
-}
-
 .col-main {
   width: 62.5%;
 }
@@ -192,7 +191,6 @@ p {
   @include flexInit(center, center, row);
   width: 66%;
 }
-
 
 .row-main {
   @include flexInit(center, center, column);
@@ -303,7 +301,6 @@ p {
   }
 }
 
-
 .col-xs-1,
 .col-sm-1,
 .col-md-1,
@@ -361,6 +358,3 @@ p {
   padding-left: 40px;
   padding-right: 40px;
 }
-
-
-

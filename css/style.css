@@ -26,6 +26,16 @@ body {
   width: auto;
   height: 100px; }
 
+.align-right {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  right: 0; }
+
 .nav-item a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -175,16 +185,6 @@ p {
   color: white;
   background-color: #fa254c;
   font-family: "Montserrat-Bold"; }
-
-.align-right {
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-  right: 0; }
 
 .col-main {
   width: 62.5%; }
